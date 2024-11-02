@@ -1,0 +1,125 @@
+.About-navbar{
+    .Navbar-main-body {
+        .Navbar-sub-body {
+      
+            .navbar {
+                display: flex;
+                justify-content: space-around !important;
+                align-items: center;
+                padding: 10px 20px;
+                width: 100%;
+                background-color: #FFFFFFBF;
+                z-index: 9999;
+                position: fixed;
+         
+            }
+    
+            .logo {
+    
+                // background-color: aqua;
+                display: flex;
+                align-items: center;
+                margin-left: 50px;
+            }
+    
+            .logo img {
+                height: 80px;
+    
+            }
+    
+            .nav-links {
+                list-style: none;
+                display: flex;
+                // background-color: white;
+                margin: 0;
+                margin-left: auto;
+                // width: 41%;
+                padding: 0;
+            }
+    
+            .nav-links li {
+                margin: 0 10px;
+            }
+    
+            .nav-links a {
+                text-decoration: none;
+                font-family: "Inter";
+                font-size: 12px;
+                font-weight: 450;
+                line-height: 14.52px;
+                color: #1D1D1F;
+                text-align: left;
+       
+    
+            }
+    .nav-li{
+        // background-color: red;
+        padding-top: 2px;
+    }
+            
+    
+            .register-btn {
+                font-family: "jost";
+                padding: 9px 20px;
+                background-color: white;
+                font-size: 12px;
+                border-radius: 5px;
+                font-weight: 300;
+                box-shadow: 0px 2px 3px 0px #00000040;
+                color: #05CBF2;
+                border-radius: 5px !important;
+                line-height: 14.52px;
+                border: none;
+                
+            }
+    
+            .register-btn:hover {
+                background-color: #81D4FA;
+                /* Darker blue on hover */
+                color: white;
+            }
+    
+            .toggle-button {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    
+    .toggle-button div {
+      width: 25px;
+      height: 3px;
+      background-color: #333;
+      margin: 4px 0;
+    }
+    
+    @media (max-width: 1024px) {
+       .Navbar-sub-body .navbar{
+            justify-content: space-between;
+        }
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+ 
+      .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+      }
+    
+      .toggle-button {
+        display: flex;
+        align-items: end;
+        // background-color: red;
+        margin-left: auto;
+      }
+    
+      .nav-links.active {
+        display: flex;
+      }
+    }
+    
+        }
+    
+    }
+}

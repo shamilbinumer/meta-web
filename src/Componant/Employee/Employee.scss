@@ -1,0 +1,560 @@
+.employee-page-wrapper {
+    overflow: hidden;
+
+    .employee-body {
+        height: 500px;
+        background-image: url("/Images/BG 1 - Banner.jpg");
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        .Team-members-heading {
+            width: 700px;
+            height: 200px;
+            background: #FFFFFF40;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-family: Jost;
+                font-size: 70px;
+                font-weight: 500;
+                line-height: 70px;
+                padding: 0 !important;
+                margin: 0 !important;
+                text-align: left;
+                color: #141414;
+            }
+
+        }
+    }
+
+    .managers-section {
+        padding: 3rem 5rem;
+        background-color: #ffff;
+
+        .manager-pro-card {
+            height: 485px;
+            position: relative;
+
+            .pro-pic-manager {
+                height: 392px !important;
+                border-radius: 20px;
+                overflow: hidden;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                .linkdin-link {
+                    position: absolute;
+
+                    opacity: 0;
+                    transition: opacity 0.3s ease-in-out;
+                    bottom: 5%;
+                    right: 6%;
+
+                    img {
+                        width: 20px;
+                    }
+                }
+
+            }
+
+            .manager-details {
+                h4 {
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    text-align: left;
+                    padding-top: 1rem;
+                }
+
+                h3 {
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    padding-top: 10px;
+
+                }
+            }
+        }
+
+        .manager-pro-card:hover .linkdin-link {
+            opacity: 1;
+        }
+    }
+
+    .middle-management-section {
+        background-image: url("/Images/BG 3 - Middle Management.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        padding: 4rem 8rem;
+
+        .middle-management-card {
+
+            height: 300px;
+            padding: 10px;
+            margin: auto;
+            width: 210px;
+            border-radius: 20px;
+            background: #1D1D1F4D;
+            box-shadow: 0px 4px 4px 0px #00000040;
+            box-shadow: 0px 4px 4px 0px #00000040 inset;
+
+            .middle-manegers-propic {
+                width: 100%;
+                height: 190px;
+                background-color: black;
+                border-radius: 20px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .middle-managers-details {
+                h1 {
+                    font-family: Jost;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 26px;
+                    text-align: center;
+                    padding-top: 1rem;
+                    padding-bottom: 0 !important;
+                    margin: 0 !important;
+                    color: #ffff;
+
+                }
+
+                h3 {
+                    font-family: Jost;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #ffff;
+
+                }
+            }
+
+        }
+
+        .middle-manager-2-wrapper {
+            width: 73%;
+            margin: auto;
+            margin-top: 3rem;
+        }
+    }
+
+    .Team-leads-section {
+
+        padding: 6rem 9rem 1rem;
+        background-image: url("/Images/BG 03.jpg");
+        .tl-roww{
+            justify-content: center;
+        }
+
+        .Tl-card-main-column {
+            margin-bottom: 3rem;
+        }
+
+        .TL-card {
+
+            width: 210px;
+            height: 270px;
+            margin: auto;
+            padding: 7px;
+            border-radius: 20px;
+            background: #FFFFFF0D;
+            box-shadow: 0px 4px 4px 0px #00000040;
+
+            .TL-propic {
+                height: 190px;
+                width: 100%;
+                border-radius: 20px;
+                overflow: hidden;
+                background-color: black;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .tl-description {
+                h1 {
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    text-align: center;
+                    color: #ffff;
+
+                }
+
+                h2 {
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 300;
+                    padding-top: 10px;
+                    padding-bottom: 0 !important;
+                    margin-bottom: 0 !important;
+                    color: #ffff;
+                    text-align: center;
+
+                }
+            }
+
+        }
+
+        .tl-roww {
+            margin-bottom: 4rem;
+        }
+    }
+
+    .employees-section {
+        padding: 3rem 9rem 1rem;
+        background-image: url("/Images/BG 04.jpg");
+
+        .employee-card-column {
+            margin-bottom: 2rem;
+        }
+
+        .employee-card {
+            width: 210px;
+            height: 270px;
+            padding: 1rem;
+            background: #E0E0E01A;
+            box-shadow: 0px 4px 4px 0px #00000040 inset;
+            box-shadow: 0px 4px 4px 0px #00000040;
+            border-radius: 30px;
+            margin: auto;
+
+            .employee-propic {
+                width: 100%;
+                height: 180px;
+                overflow: hidden;
+                background-color: black;
+                border-radius: 50%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .employee-card-deatils {
+            h3 {
+                font-family: Jost;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 25px;
+                text-align: center;
+                padding-bottom: 3px;
+                padding-top: 4px;
+                margin-bottom: 0 !important;
+                color: #ffff;
+            }
+
+            h4 {
+                font-family: Jost;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 25px;
+                text-align: center;
+                color: #ffff;
+            }
+
+        }
+    }
+
+    .need-consultation-section-employeepage {
+        height: 600px;
+        background-image: url("/Images/Employee - Call.jpg");
+        background-position: cover;
+
+        display: grid;
+        align-items: center;
+        justify-content: end;
+        padding-right: 6rem;
+
+        .cunsultation-card-employeee {
+            width: 583px;
+            height: 300px;
+            background: #FFFFFF33;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .card-description {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+
+                h6 {
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #0554F2;
+                }
+
+                h1 {
+                    font-family: Jost;
+                    font-size: 35px;
+                    font-weight: 500;
+                    line-height: 35px;
+                    text-align: center;
+                    color: white;
+                    text-shadow: 4px 4px 0px #00000040;
+
+                }
+
+                .contact-buttonn {
+                    button {
+                        width: 120px;
+                        height: 30px;
+                        font-family: Jost;
+                        font-size: 18px;
+                        font-weight: 300;
+                        line-height: 18px;
+                        border: none;
+                        text-align: center;
+                        box-shadow: 0px 2px 5px 0px #00000040;
+                        color: #05CBF2;
+                        transition: .7s;
+
+                    }
+
+                    :hover {
+                        background-color: #05CBF2;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width:576px) {
+        .Team-members-heading {
+            width: 90% !important;
+            margin: auto;
+            height: 84px !important;
+
+            h1 {
+                font-size: 40px !important;
+            }
+        }
+
+        .employee-body {
+            justify-content: normal !important;
+            height: 289px !important;
+            padding-top: 3.5rem;
+        }
+
+        .managers-section {
+            padding: 2rem 4rem !important;
+
+            .manager-pro-card {
+                margin-bottom: 1rem !important;
+            }
+        }
+
+        .middle-management-section {
+            padding: 1rem 0px !important;
+
+            .middle-management-card {
+                margin-bottom: 1rem;
+
+            }
+
+        }
+
+        .middle-manager-2-wrapper {
+            padding: 0px !important;
+            width: 100% !important;
+            margin-top: 0px !important;
+
+        }
+
+        .Team-leads-section {
+            padding: 20px 6px 20px !important;
+            background-repeat: no-repeat !important;
+            background-size: cover;
+            .Tl-card-main-column {
+                margin-bottom: .7rem !important;
+            }
+
+            .TL-card {
+                width: 100% !important;
+                height: auto !important;
+                margin-bottom: 1rem !important;
+                h2{
+                    font-size: 15px !important;
+                }
+                h1{
+                    font-size: 16px !important;
+                }
+                .TL-propic{
+                    height: 150px;
+                }
+            }
+
+            .tl-roww {
+                margin-bottom: 0px !important;
+            }
+        }
+
+        .employees-section {
+            padding: 3rem 0rem 0rem !important;
+            height: auto !important;
+            // background-color: red !important;
+
+            .ss {
+                // background-color: red;
+                display: flex !important;
+            }
+
+            .employee-card {
+                height: auto !important;
+                width: 100% !important;
+
+                // margin-bottom: 1rem;
+                .employee-propic {
+                    height: 100px;
+                    width: 100px;
+                    margin: auto;
+                }
+
+                h3 {
+                    font-size: 15px !important;
+                }
+
+                h4 {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .need-consultation-section-employeepage {
+            padding: 1rem !important;
+            height: auto !important;
+            justify-content: center !important;
+
+            .cunsultation-card-employeee {
+                width: 100% !important;
+                height: auto !important;
+                padding: 17px !important;
+
+                .card-description {
+                    gap: 10px !important;
+
+                    h6 {
+                        font-size: 16px !important;
+
+                    }
+
+                    h1 {
+                        font-size: 26px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width:577px) and (max-width:768px) {
+        .middle-management-card {
+            margin-bottom: 1rem !important;
+        }
+
+        .middle-manager-2-wrapper {
+            width: 100% !important;
+            margin-top: 0px !important;
+        }
+
+        .managers-section {
+            padding: 3rem 12rem !important;
+
+            .manager-pro-card {
+                margin-bottom: 1rem !important;
+            }
+        }
+
+        .employees-section {
+            padding: 3rem 3rem !important;
+        }
+    }
+
+    @media (min-width:769px) and (max-width:993px) {
+        .middle-management-card {
+            margin-bottom: 1rem !important;
+        }
+
+        .middle-manager-2-wrapper {
+            width: 100% !important;
+            margin-top: 0px !important;
+        }
+
+        .managers-section {
+            padding: 3rem 12rem !important;
+
+            .manager-pro-card {
+                margin-bottom: 1rem !important;
+            }
+        }
+
+        .employees-section {
+            padding: 3rem 7rem !important;
+        }
+    }
+
+    @media (min-width:994px) and (max-width:1300px) {
+        .middle-management-card {
+            margin-bottom: 1rem !important;
+        }
+
+        .middle-manager-2-wrapper {
+            margin-top: 0px !important;
+        }
+
+        .managers-section {
+            padding: 3rem 1rem !important;
+
+            .manager-pro-card {
+                margin-bottom: 1rem !important;
+            }
+        }
+
+        .employees-section {
+            padding: 3rem 1rem !important;
+        }
+
+        .middle-management-section {
+            padding: 4rem 1rem !important;
+        }
+
+        .Team-leads-section {
+            padding: 6rem 2rem 1rem !important;
+        }
+    }
+
+}

@@ -1,0 +1,878 @@
+.service-cunsult-main-body {
+    overflow: hidden;
+
+    .link {
+        text-decoration: none;
+        color: #1D1D1F;
+        transition: .3s;
+    }
+
+    .link:hover {
+        color: white;
+    }
+
+    .services-hero {
+        background-image: url('/Images/Banner - Our Services.jpg');
+        background-attachment: fixed;
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+
+        .service-contet-wrapper {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+        }
+
+        .service-page-main-heading {
+            h1 {
+                font-family: Jost;
+                font-size: 90px;
+                font-weight: 500;
+                line-height: 70px;
+                height: 26vh;
+                color: #666666;
+            }
+        }
+    
+
+        .service-content {
+            width: 100%;
+            height: 100px;
+            background: #FFFFFF4D;
+
+            display: flex;
+            flex-wrap: wrap;
+
+            justify-content: center;
+            align-items: center;
+
+
+            p {
+                font-family: Jost;
+                font-size: 28px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #666666;
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+
+    @media(max-width:576px) {
+        .services-hero {
+            background-image: url('/Images/Rectangle Banner BG-mobile.png');
+            height: 40vh !important;
+        }
+
+        .service-page-main-heading {
+            h1 {
+                font-size: 50px !important;
+                margin-bottom: 0px !important;
+                height: auto !important;
+                padding-bottom: 2rem !important;
+            }
+        }
+
+        .service-content {
+            justify-content: center !important;
+            height: auto !important;
+            // background-color: red !important;
+            gap: 0px !important;
+            padding: 20px !important;
+
+
+            p {
+                font-size: 18px !important;
+                text-align: center;
+
+                padding-top: 0px !important;
+                margin-top: 0px !important;
+            }
+        }
+    }
+
+    @media(min-width:576px) and (max-width:991px) {
+        .services-hero {
+            background-image: url('/Images/Rectangle Banner BG-mobile.png');
+            height: 35vh !important;
+        }
+        .service-page-main-heading {
+            h1 {
+                font-family: Jost;
+                font-size: 80px !important;
+                font-weight: 500;
+                line-height: 70px;
+                padding-bottom: 5rem;
+                height: auto !important;
+                color: #666666;
+            }
+        }
+        .service-content {
+            height: auto !important;
+            padding: 20px;
+
+     
+
+            p {
+                font-size: 18px !important;
+                text-align: center;
+                margin-top: 0 !important;
+            }
+        }
+
+        .software-lists {
+
+            height: auto !important;
+
+
+
+        }
+    }
+
+    @media(min-width:992px) and (max-width:1300px) {
+        .services-hero {
+            background-image: url('/Images/Rectangle Banner BG-mobile.png');
+            height: 50vh !important;
+        }
+
+        .service-content {
+            height: auto !important;
+            padding: 10px;
+
+            h1 {
+                font-size: 40px !important;
+                margin-bottom: 0 !important;
+            }
+
+            p {
+                font-size: 18px !important;
+                text-align: center;
+                margin-top: 0 !important;
+            }
+        }
+
+        .software-lists {
+
+            height: auto;
+
+
+
+        }
+    }
+
+    .software-lists {
+        background-image: url('/Images/Rectangle Services BG.png');
+        background-attachment: fixed;
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        padding: 3rem 7rem;
+
+        h4 {
+            font-family: Jost;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: center;
+            color: #0554F2;
+        }
+
+        h1 {
+            font-family: Jost;
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 35px;
+            text-align: center;
+            color: #ffff;
+            margin-bottom: 3rem;
+        }
+
+        .serivice-card-wrapper {
+            .service-card {
+                width: 97%;
+                margin: auto;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #FFFFFF;
+                background: #FFFFFF1A;
+                margin-bottom: 2.5rem;
+
+                span {
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    background: linear-gradient(45deg, #05CBF2, #0554F2);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+
+    @media(max-width:576px) {
+        .software-lists {
+            height: auto !important;
+            padding: 1rem;
+
+            h1 {
+                line-height: 45px;
+            }
+
+            .service-card {
+                height: 50px !important;
+                margin-bottom: 1.5rem !important;
+
+            }
+        }
+    }
+
+    .services-industry-container {
+
+        background-image: url("/Images/Home Page Services BG.jpg");
+        padding: 30px 90px;
+
+        // .no-gap {
+        //     padding-left: 0;
+        //     padding-right: 0;
+        // }
+
+        // .no-gap-row {
+        //     margin-left: 0 !important;
+        //     margin-right: 0 !important;
+        // }
+
+        .services-industry-headings {
+            h1 {
+
+
+
+                font-family: "Jost";
+                font-size: 35px;
+                font-weight: 400;
+                line-height: 35px;
+                text-align: center;
+                color: #0554F2;
+                padding-bottom: 35px;
+
+            }
+
+            h3 {
+                font-family: "Jost";
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 20px;
+                text-align: center;
+                color: #666666;
+
+            }
+        }
+
+        .service-industry-rows {
+            margin-bottom: 30px;
+        }
+
+        .service-industry-rows3 {
+            background-image: url("/Images/Services - Bg 3.jpg");
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+
+            .service-industry-card-right {
+
+                background-image: none;
+                height: 370px;
+                display: flex;
+                width: 100%;
+                background-size: cover;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+                justify-content: center;
+
+                .service-industry-card-list {
+                    width: 400px;
+                    height: 40px;
+                    background: #FFFFFFB2;
+
+
+                    box-shadow: 0px 2px 4px 0px #00000040;
+
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+
+                    span {
+                        font-family: "Jost";
+                        font-size: 20px;
+                        font-weight: 300;
+                        line-height: 20px;
+
+                        color: #0554F2;
+                    }
+                }
+            }
+        }
+
+        .service-industry-card-heading {
+            background-color: black;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-family: Jost;
+                font-size: 25px;
+                font-weight: 400;
+                padding: 0px;
+                margin: 0px;
+                text-align: center;
+                color: #ffff;
+
+            }
+
+        }
+
+        .service-industry-card-left {
+
+            height: 300px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .service-industry-card-right {
+            background-image: url("/Images/Rectangle BG.png");
+            height: 300px;
+            display: flex;
+            width: 100%;
+            background-size: cover;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service-industry-card-list {
+            position: relative;
+            width: 400px;
+            height: 40px;
+            background-color: #ffff;
+            box-shadow: 0px 2px 4px 0px #00000040;
+            transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            /* To contain the pseudo-element */
+        }
+
+        .service-industry-card-list::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            /* Start outside the left edge */
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgb(213, 251, 255), transparent);
+            transition: left 0.30s ease;
+            z-index: 1;
+            /* Ensure it is on top */
+        }
+
+        .service-industry-card-list:hover::before {
+            left: 100%;
+            /* Move to outside the right edge */
+        }
+
+        .service-industry-card-list span {
+            font-family: Jost;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 20px;
+            color: #1D1D1F;
+            transition: color 0.3s ease;
+            position: relative;
+            z-index: 2;
+        }
+
+        .service-industry-card-list:hover {
+            background-color: #1D1D1F;
+            color: #ffffff;
+            transform: scale(1.05);
+        }
+
+        .service-industry-card-list:hover span {
+            color: #ffffff;
+        }
+
+    }
+
+
+
+    .consultation-section {
+
+        background-image: url("/Images/Services - Call.jpg");
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-top: 30px;
+        padding-right: 4rem;
+
+
+        .service-cunsultation-card {
+            width: 65%;
+            overflow: hidden;
+            height: 120px;
+
+            background: #FFFFFF80;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+
+            .card-deatils {
+
+
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+
+
+                .card-headings {
+                    width: 68%;
+                    /* margin: auto; */
+                    // background: aquamarine;
+                    height: 92px;
+                    display: grid;
+                    align-items: center;
+                    justify-content: start;
+                    gap: 0px;
+
+                    p {
+                        font-family: "Jost";
+                        font-size: 20px;
+                        font-weight: 300;
+                        line-height: 20px;
+                        text-align: left;
+                        padding: 0px;
+                        margin: 0px;
+                        color: #666666;
+
+                    }
+
+                    h1 {
+                        font-family: "Jost";
+                        font-size: 35px;
+                        font-weight: 500;
+                        padding: 0px;
+                        margin: 0px;
+                        line-height: 35px;
+                        text-align: center;
+                        color: #0554F2;
+                        text-shadow: 0px 4px 4px #00000040;
+                    }
+                }
+
+                .cunsult-card-btn {
+                    button {
+                        width: 120px;
+                        height: 30px;
+
+                        box-shadow: 0px 2px 3px 0px #00000040;
+
+                        font-family: "jost";
+                        font-size: 18px;
+                        font-weight: 300;
+                        line-height: 14px;
+                        color: #05CBF2;
+                        background-color: white;
+                        border: none;
+                        // margin-top: 3rem;
+                        position: relative;
+                        overflow: hidden;
+                        z-index: 0;
+                        transition: color 0.5s;
+                    }
+
+                    button::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: #0554F2;
+                        z-index: -1;
+                        transform: scaleX(0);
+                        transform-origin: left;
+                        transition: transform 0.5s ease;
+                    }
+
+                    button:hover::before {
+                        transform: scaleX(1);
+                    }
+
+                    button:hover {
+                        color: white;
+                    }
+
+                }
+            }
+        }
+    }
+
+    @media (max-width:575px) {
+        .consultation-section {
+            width: 100%;
+            background-size: cover;
+            height: 44vh;
+            display: flex;
+
+            align-items: center;
+            padding-top: 0px;
+
+
+            .service-cunsultation-card {
+
+                height: auto;
+
+                padding: 10px;
+
+
+                .card-deatils {
+
+                    flex-direction: column;
+
+
+                    .card-headings {
+                        width: 100%;
+
+                        // background: aquamarine;
+                        height: auto;
+                        justify-content: center;
+
+
+                        p {
+
+                            font-size: 14px;
+
+
+
+                        }
+
+                        h1 {
+                            font-family: "Jost";
+                            font-size: 20px;
+                            font-weight: 500;
+                            padding: 0px;
+                            margin: 0px;
+                            line-height: 25px;
+                            margin-bottom: 10px !important;
+                            text-align: center;
+                            color: #0554F2;
+                            text-shadow: 0px 4px 4px #00000040;
+                            // box-shadow: 0px 4px 4px 0px #00000040;
+
+
+
+                        }
+                    }
+
+                    .cunsult-card-btn {
+
+
+
+
+                        button {
+                            width: 103px;
+                            height: 24px;
+                            font-size: 14px;
+
+
+
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+
+        .services-industry-container {
+
+
+            padding: 20px 10px;
+
+
+
+            .services-industry-headings {
+                h1 {
+
+
+
+                    line-height: 29px;
+                    font-size: 25px;
+
+
+                    padding-bottom: 15px;
+
+                }
+
+                h3 {
+
+                    font-size: 15px;
+
+
+
+                }
+            }
+
+            .service-industry-rows3 {
+
+
+                .service-industry-card-right {
+
+
+                    gap: 21px;
+
+                    .service-industry-card-list {
+                        width: 90%;
+
+
+
+                    }
+                }
+            }
+
+            .service-industry-card-right {
+
+
+
+                .service-industry-card-list {
+                    width: 90%;
+
+
+
+                }
+            }
+        }
+
+
+    }
+
+    @media (min-width:576px) and (max-width:768px) {
+
+        .consultation-section {
+
+            height: 35vh;
+
+            .service-cunsultation-card {
+
+                .card-deatils {
+                    .card-headings {
+                        height: auto;
+                        justify-content: start !important;
+
+                        p {
+                            font-size: 10px;
+                            line-height: 20px;
+                        }
+
+                        h1 {
+                            font-size: 16px;
+                            line-height: 45px;
+                        }
+                    }
+
+                    .cunsult-card-btn {
+                        button {
+                            width: 100px;
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .services-industry-container {
+
+
+            padding: 20px 10px;
+
+
+
+            .services-industry-headings {
+                h1 {
+
+
+
+                    line-height: 29px;
+                    font-size: 25px;
+
+
+                    padding-bottom: 15px;
+
+                }
+
+                h3 {
+
+                    font-size: 15px;
+
+
+
+                }
+            }
+
+            .service-industry-rows3 {
+
+
+                .service-industry-card-right {
+
+
+                    gap: 21px;
+
+                    .service-industry-card-list {
+                        width: 90%;
+
+
+
+                    }
+                }
+            }
+
+            .service-industry-card-right {
+
+
+
+                .service-industry-card-list {
+                    width: 90%;
+
+
+
+                }
+            }
+        }
+    }
+
+    @media (min-width:769px) and (max-width:992px) {
+        .consultation-section {
+            height: 64vh;
+
+            .service-cunsultation-card {
+                h1 {
+                    font-size: 23px !important;
+                }
+
+                p {
+                    font-size: 15px !important;
+                }
+            }
+        }
+
+        .services-industry-container {
+
+
+            padding: 20px 10px;
+
+
+
+            .services-industry-headings {
+                h1 {
+
+
+
+                    line-height: 29px;
+                    font-size: 25px;
+
+
+                    padding-bottom: 15px;
+
+                }
+
+                h3 {
+
+                    font-size: 15px;
+
+
+
+                }
+            }
+
+            .service-industry-rows3 {
+
+
+                .service-industry-card-right {
+
+
+                    gap: 21px;
+
+                    .service-industry-card-list {
+                        width: 90%;
+
+
+
+                    }
+                }
+            }
+
+            .service-industry-card-right {
+
+
+
+                .service-industry-card-list {
+                    width: 90%;
+
+
+
+                }
+            }
+        }
+    }
+
+    @media (min-width:993px) and (max-width:1300px) {
+        .consultation-section {
+            height: 70vh;
+
+            .service-cunsultation-card {
+                .card-headings {
+                    justify-content: start !important;
+
+                    h1 {
+                        font-size: 23px !important;
+                    }
+
+                    p {
+                        font-size: 15px !important;
+                    }
+                }
+            }
+        }
+
+        .services-industry-container {
+            padding: 30px 0px;
+ }
+}
+}
